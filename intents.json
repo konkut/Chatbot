@@ -1,0 +1,220 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Que tal",
+        "Como estas?",
+        "Hay alguien alli?",
+        "Buen dia",
+        "Buenos dias",
+        "Buenas tardes",
+        "Buenas noches",
+        "Que hay de nuevo",
+        "Como te va?"
+      ],
+      "responses": [
+        "¡Hola! 👋 Te damos la bienvenida al BOT del Ministerio de Trabajo y Previsión Social - Soporte 🧑‍💻 OVT (Oficina Virtual de Trámites)",
+        "¡Que tal! 👋 Te damos la bienvenida al BOT del Ministerio de Trabajo y Previsión Social - Soporte 🧑‍💻 OVT (Oficina Virtual de Trámites)"
+      ]
+    },
+    {
+      "tag": "fuera de plazo",
+      "patterns": [
+        "planillas fuera de plazo",
+        "presentacion fuera de plazo",
+        "retraso de presentacion de planilla",
+        "atraso de presentacion de planilla",
+        "Archivos atrasados en presentacion",
+        "Reportes a destiempo",
+        "Planillas caducadas",
+        "Archivos fuera de termino",
+        "Documentacion atrasada",
+        "Planillas atrasadas en presentacion",
+        "Formularios expirados en presentacion"
+      ],
+      "responses": [
+        "Recordarle que la declaración de planillas mensuales📑 se encuentra habilitada del 01 al 15 de cada mes, en este sentido si usted no logro realizar la declaración en este periodo, es necesario que descargue desde la pagina del MTEPS ambos documentos https://www.mintrabajo.gob.bo/?page_id=1846"
+      ]
+    },
+    {
+      "tag": "Gracias",
+      "patterns": [
+        "Gracias",
+        "Gracias a ti",
+        "Gracias por ayudarme",
+        "Muchas gracias"
+      ],
+      "responses": [
+        "¡De nada, siempre estoy aquí para ayudar!",
+        "Estoy feliz de poder ser de ayuda.",
+        "No hay de qué, es un placer colaborar contigo.",
+        "Es un gusto poder asistirte.",
+        "¡estoy a tu disposición!",
+        "Para eso estamos, ¡cuenta conmigo!",
+        "Fue un placer, cualquier otra cosa que necesites, no dudes en decírmelo.",
+        "Estoy encantado de poder contribuir.",
+        "¡Con gusto! Siempre que necesites ayuda, aquí estaré."
+      ]
+    },
+    {
+      "tag": "rectificaciones",
+      "patterns": [
+        "Rectificacion de Planillas",
+        "Correccion de Formularios",
+        "Modificacion de Archivos",
+        "Actualizacion de Registros",
+        "Rectificacion de Datos",
+        "Correccion de Archivos",
+        "Actualizacion de Planillas",
+        "Rectificacion de Registros",
+        "Modificacion de Datos",
+        "Correccion de Registros",
+        "Actualizacion de Documentos",
+        "Rectificacion de Formatos",
+        "Modificacion de Planillas",
+        "Correccion de Datos",
+        "Revision de Formularios",
+        "Actualizacion de Datos",
+        "Rectificacion de Archivos",
+        "Modificacion de Formularios",
+        "Correccion de Documentos",
+        "Actualizacion de Formatos",
+        "Rectificacion de Formularios",
+        "Modificacion de Registros"
+      ],
+      "responses": [
+        "Comunicarle que no existen y no se pueden realizar rectificaciones ni ediciones de ningún tipo a las planillas ya declaradas en la Oficina Virtual de Tramites, esto en razón de que las mismas son Declaraciones Juradas y por lo tanto son documentos que no se pueden editar."
+      ]
+    },
+    {
+      "tag": "inconvenientes",
+      "patterns": [
+        "Incidentes en la carga de planillas",
+        "Problemas durante la importacion de archivos",
+        "Inconsistencias al importar planillas",
+        "Fallas en el proceso de importacion de planillas",
+        "Dificultades en la carga de datos",
+        "Contratiempos en la importacion de registros",
+        "Inconvenientes en la importacion de documentos",
+        "Complicaciones en la carga de archivos",
+        "Dificultades al procesar la importacion de planillas"
+      ],
+      "responses": [
+        "Soporte y consultas tecnicas telefonos: 2408606 (Int. 2137), 2408606 (Int. 2209), correo: soporteovt@mintrabajo.gob.bo"
+      ]
+    },
+    {
+      "tag": "direccion",
+      "patterns": [
+        "Direccion del Ministerio de Trabajo",
+        "Sede del Ministerio de Trabajo, Empleo",
+        "Ubicacion del Ministerio de Trabajo, Empleo",
+        "Domicilio del Ministerio de Trabajo, Empleo",
+        "Lugar donde se encuentra el Ministerio de Trabajo, Empleo"
+      ],
+      "responses": [
+        "Calle Yanacocha esquina Calle Mercado, Zona Central, La Paz - Bolivia"
+      ]
+    },
+    {
+      "tag": "Correo",
+      "patterns": [
+        "Necesito los correos",
+        "¿Cuales son los emails",
+        "Requiero informacion sobre los correos",
+        "¿Podrian proporcionarme los correos",
+        "Estoy buscando los medios de contacto via correo",
+        "Necesito saber los correos",
+        "¿Me podrían facilitar los emails",
+        "Por favor, indiquenme cómo contactar vía correo",
+        "¿Donde puedo encontrar los correos de contacto"
+      ],
+      "responses": [
+        "contacto@mintrabajo.gob.bo, soporteovt@mintrabajo.gob.bo, planillas@mintrabajo.gob.bo"
+      ]
+    },
+    {
+      "tag": "Telefono",
+      "patterns": [
+        "Necesito los numeros de contacto",
+        "¿Cuales son los telefonos de contacto",
+        "Requiero informacion sobre los numeros de contacto",
+        "¿Podrian proporcionarme los numeros de contacto?",
+        "Estoy buscando los medios de contacto telefonico",
+        "¿Cual es el número de telefono para comunicarse",
+        "Necesito saber los numeros de contacto",
+        "¿Me podrian facilitar los telefonos de contacto?",
+        "Por favor, indiquenme cómo contactar via telefono",
+        "¿Donde puedo encontrar los numeros de contacto?"
+      ],
+      "responses": ["2408606 (Int. 2137), 2408606 (Int. 2209)"]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    }
+  ]
+}
